@@ -17,7 +17,8 @@ docs/
 
 # Certora
 .certora_internal/
-.hypothesis/ 
+.hypothesis/
+certora-env/
 
 annotated*
 gambit*
