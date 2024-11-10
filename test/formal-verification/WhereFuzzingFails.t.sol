@@ -3,7 +3,7 @@ pragma solidity 0.8.20;
 
 import {Test} from "forge-std/Test.sol";
 import {StdInvariant} from "forge-std/StdInvariant.sol";
-import {FormalVerificationCatches} from "../../../src/invariant-break/FormalVerificationCatches.sol";
+import {FormalVerificationCatches} from "../../src/FormalVerificationCatches.sol";
 
 contract WhereFuzzingFails is StdInvariant, Test {
     FormalVerificationCatches fvc;
